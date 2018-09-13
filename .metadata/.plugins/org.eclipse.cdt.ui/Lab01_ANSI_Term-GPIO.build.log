@@ -1,0 +1,17 @@
+19:08:04 **** Incremental Build of configuration Release for project Lab01_ANSI_Term-GPIO ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\Lab01_ANSI_Term-GPIO\Release
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DSTM32F769NIHx -DSTM32F7 -DSTM32 -DSTM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/Lab01_ANSI_Term-GPIO/inc" -O3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+In file included from C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/Lab01_ANSI_Term-GPIO/inc/hello.h:17:0,
+                 from ../src/hello.c:18:
+C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/Lab01_ANSI_Term-GPIO/inc/init.h:4:10: fatal error: stm32f769xx.h: No such file or directory
+ #include "stm32f769xx.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+src/subdir.mk:24: recipe for target 'src/hello.o' failed
+make: *** [src/hello.o] Error 1
+
+19:08:04 Build Finished (took 775ms)
+

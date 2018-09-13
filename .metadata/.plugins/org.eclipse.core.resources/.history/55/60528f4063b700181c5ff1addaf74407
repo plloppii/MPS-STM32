@@ -1,0 +1,77 @@
+//------------------------------------------------------------------------------------
+// Hello.c
+//------------------------------------------------------------------------------------
+//
+// Test program to demonstrate serial port I/O.  This program writes a message on
+// the console using the printf() function, and reads characters using the getchar()
+// function.  An ANSI escape sequence is used to clear the screen if a '2' is typed.
+// A '1' repeats the message and the program responds to other input characters with
+// an appropriate message.
+//
+// Any valid keystroke turns on the green LED on the board; invalid entries turn it off
+//
+
+
+//------------------------------------------------------------------------------------
+// Includes
+//------------------------------------------------------------------------------------
+#include "stm32f769xx.h"
+#include "hello.h"
+
+#include<stdint.h>
+
+
+//------------------------------------------------------------------------------------
+// MAIN Routine
+//------------------------------------------------------------------------------------
+int main(void)
+{
+    Sys_Init(); // This always goes at the top of main (defined in init.c)
+    GPIO_Init();
+
+    HAL_Delay(1000); // Pause for a second
+
+    while(1){
+    	if(HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_7))
+    	{
+    	  printf("Switch is on\r\n");
+    	}
+    	else{
+    		printf("Switch is off\r\n");
+    	}
+
+    }
+
+}
+
+//------------------------------------------------------------------------------------
+//Extra thing to consider...
+//------------------------------------------------------------------------------------
+void GPIO_Init(void){
+    GPIO_InitTypeDef GPIO_InitStruct;
+
+    __GPIOC_CLK_ENABLE();
+    __GPIOJ_CLK_ENABLE();
+    __GPIOF_CLK_ENABLE();
+
+
+     /*Configure GPIO pin : PC7_Pin */
+     GPIO_InitStruct.Pin = GPIO_PIN_7|GPIO_PIN_6;
+     GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+     GPIO_InitStruct.Pull = GPIO_PULLUP;
+     HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+
+     /*Configure GPIO pin : PJ1_Pin */
+     GPIO_InitStruct.Pin = GPIO_PIN_1;
+     GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+     GPIO_InitStruct.Pull = GPIO_PULLUP;
+     HAL_GPIO_Init(GPIOJ, &GPIO_InitStruct);
+
+     /*Configure GPIO pin : PF6_Pin */
+     GPIO_InitStruct.Pin = GPIO_PIN_6;
+     GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+     GPIO_InitStruct.Pull = GPIO_PULLUP;
+     HAL_GPIO_Init(GPIOF, &GPIO_InitStruct);
+
+
+}

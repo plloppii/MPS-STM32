@@ -1,0 +1,39 @@
+10:25:32 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/Task1&2.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/Task1&2.d" -MT"src/Task1&2.o" -o "src/Task1&2.o" "../src/Task1&2.c"
+../src/Task1&2.c: In function 'main':
+../src/Task1&2.c:85:22: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[12] = ("%02x",choice);
+                      ^
+../src/Task1&2.c:102:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[i] = ("%02x",choice);
+                     ^
+../src/Task1&2.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/Task1&2.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/Task1&2.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/Task1&2.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12192	    476	   1300	  13968	   3690	MPS_Lab01.elf
+ 
+
+10:25:36 Build Finished (took 4s.631ms)
+

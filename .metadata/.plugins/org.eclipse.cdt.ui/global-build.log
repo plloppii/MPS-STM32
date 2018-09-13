@@ -1,0 +1,1776 @@
+14:03:25 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:34:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:32:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11124	    112	   1296	  12532	   30f4	MPS_Lab01.elf
+ 
+14:03:42 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+make: Nothing to be done for 'all'.
+14:03:50 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+make: Nothing to be done for 'all'.
+14:04:44 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:34:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:32:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11136	    112	   1296	  12544	   3100	MPS_Lab01.elf
+ 
+14:15:16 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:34:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:32:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11160	    112	   1296	  12568	   3118	MPS_Lab01.elf
+ 
+14:18:51 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:34:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:32:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11172	    112	   1296	  12580	   3124	MPS_Lab01.elf
+ 
+14:20:14 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:34:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:32:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11160	    112	   1296	  12568	   3118	MPS_Lab01.elf
+ 
+14:31:36 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:35:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11140	    112	   1296	  12548	   3104	MPS_Lab01.elf
+ 
+14:49:05 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:35:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11156	    112	   1296	  12564	   3114	MPS_Lab01.elf
+ 
+14:50:03 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:35:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11160	    112	   1296	  12568	   3118	MPS_Lab01.elf
+ 
+15:38:43 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:35:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11184	    112	   1296	  12592	   3130	MPS_Lab01.elf
+ 
+17:05:57 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+make: Nothing to be done for 'all'.
+17:06:36 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:35:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11184	    112	   1296	  12592	   3130	MPS_Lab01.elf
+ 
+17:07:52 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:35:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11184	    112	   1296	  12592	   3130	MPS_Lab01.elf
+ 
+17:10:19 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:35:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11200	    112	   1296	  12608	   3140	MPS_Lab01.elf
+ 
+17:11:10 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:35:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11200	    112	   1296	  12608	   3140	MPS_Lab01.elf
+ 
+17:13:38 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:35:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11216	    112	   1296	  12624	   3150	MPS_Lab01.elf
+ 
+17:14:29 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:35:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11216	    112	   1296	  12624	   3150	MPS_Lab01.elf
+ 
+17:15:09 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:35:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11216	    112	   1296	  12624	   3150	MPS_Lab01.elf
+ 
+17:17:47 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11596	    476	   1300	  13372	   343c	MPS_Lab01.elf
+ 
+17:19:07 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11596	    476	   1300	  13372	   343c	MPS_Lab01.elf
+ 
+17:26:01 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:70:19: warning: conversion lacks type at end of format [-Wformat=]
+    printf("\033[%6H",line);
+                   ^
+../src/hello.c:70:11: warning: too many arguments for format [-Wformat-extra-args]
+    printf("\033[%6H",line);
+           ^~~~~~~~~~
+../src/hello.c:76:4: error: 'lines' undeclared (first use in this function); did you mean 'line'?
+    lines++;
+    ^~~~~
+    line
+../src/hello.c:76:4: note: each undeclared identifier is reported only once for each function it appears in
+../src/hello.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+make: *** [src/hello.o] Error 1
+src/subdir.mk:24: recipe for target 'src/hello.o' failed
+17:26:22 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:70:19: warning: conversion lacks type at end of format [-Wformat=]
+    printf("\033[%6H",line);
+                   ^
+../src/hello.c:70:11: warning: too many arguments for format [-Wformat-extra-args]
+    printf("\033[%6H",line);
+           ^~~~~~~~~~
+../src/hello.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11732	    476	   1300	  13508	   34c4	MPS_Lab01.elf
+ 
+17:28:06 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:70:19: warning: conversion lacks type at end of format [-Wformat=]
+    printf("\033[%6H",line);
+                   ^
+../src/hello.c:70:11: warning: too many arguments for format [-Wformat-extra-args]
+    printf("\033[%6H",line);
+           ^~~~~~~~~~
+../src/hello.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11744	    476	   1300	  13520	   34d0	MPS_Lab01.elf
+ 
+17:28:22 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:70:19: warning: conversion lacks type at end of format [-Wformat=]
+    printf("\033[%6H",line);
+                   ^
+../src/hello.c:70:11: warning: too many arguments for format [-Wformat-extra-args]
+    printf("\033[%6H",line);
+           ^~~~~~~~~~
+../src/hello.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11744	    476	   1300	  13520	   34d0	MPS_Lab01.elf
+ 
+17:31:57 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:70:19: warning: conversion lacks type at end of format [-Wformat=]
+    printf("\033[%6H",line);
+                   ^
+../src/hello.c:70:11: warning: too many arguments for format [-Wformat-extra-args]
+    printf("\033[%6H",line);
+           ^~~~~~~~~~
+../src/hello.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11764	    476	   1300	  13540	   34e4	MPS_Lab01.elf
+ 
+17:33:38 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11764	    476	   1300	  13540	   34e4	MPS_Lab01.elf
+ 
+18:03:39 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11912	    476	   1300	  13688	   3578	MPS_Lab01.elf
+ 
+18:36:37 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:75:5: error: expected ';' before '}' token
+     }
+     ^
+../src/hello.c:76:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[i] = ("%02x",choice);
+                     ^
+../src/hello.c:79:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[i] = ("%02x",choice);
+                     ^
+../src/hello.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+src/subdir.mk:24: recipe for target 'src/hello.o' failed
+make: *** [src/hello.o] Error 1
+18:37:16 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:76:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[i] = ("%02x",choice);
+                     ^
+../src/hello.c:79:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[i] = ("%02x",choice);
+                     ^
+../src/hello.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  11936	    476	   1300	  13712	   3590	MPS_Lab01.elf
+ 
+18:41:36 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:76:22: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[13] = ("%02x",choice);
+                      ^
+../src/hello.c:90:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[i] = ("%02x",choice);
+                     ^
+../src/hello.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12076	    476	   1300	  13852	   361c	MPS_Lab01.elf
+ 
+18:44:39 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:76:22: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[13] = ("%02x",choice);
+                      ^
+../src/hello.c:90:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[i] = ("%02x",choice);
+                     ^
+../src/hello.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12076	    476	   1300	  13852	   361c	MPS_Lab01.elf
+ 
+18:45:32 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:76:22: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[13] = ("%02x",choice);
+                      ^
+../src/hello.c:90:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[i] = ("%02x",choice);
+                     ^
+../src/hello.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12076	    476	   1300	  13852	   361c	MPS_Lab01.elf
+ 
+18:47:52 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:76:22: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[12] = ("%02x",choice);
+                      ^
+../src/hello.c:90:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[i] = ("%02x",choice);
+                     ^
+../src/hello.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12080	    476	   1300	  13856	   3620	MPS_Lab01.elf
+ 
+18:50:00 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:76:22: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[12] = ("%02x",choice);
+                      ^
+../src/hello.c:89:5: error: expected ';' before '}' token
+     }
+     ^
+../src/hello.c:92:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[i] = ("%02x",choice);
+                     ^
+../src/hello.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+src/subdir.mk:24: recipe for target 'src/hello.o' failed
+make: *** [src/hello.o] Error 1
+18:50:55 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:76:22: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[12] = ("%02x",choice);
+                      ^
+../src/hello.c:92:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[i] = ("%02x",choice);
+                     ^
+../src/hello.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12024	    476	   1300	  13800	   35e8	MPS_Lab01.elf
+ 
+18:51:50 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:76:22: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[12] = ("%02x",choice);
+                      ^
+../src/hello.c:92:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[i] = ("%02x",choice);
+                     ^
+../src/hello.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12024	    476	   1300	  13800	   35e8	MPS_Lab01.elf
+ 
+18:57:00 **** Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:76:22: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[12] = ("%02x",choice);
+                      ^
+../src/hello.c:93:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[i] = ("%02x",choice);
+                     ^
+../src/hello.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12036	    476	   1300	  13812	   35f4	MPS_Lab01.elf
+ 
+19:00:04 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:76:22: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[12] = ("%02x",choice);
+                      ^
+../src/hello.c:93:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[i] = ("%02x",choice);
+                     ^
+../src/hello.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12036	    476	   1300	  13812	   35f4	MPS_Lab01.elf
+ 
+19:01:12 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:76:22: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[12] = ("%02x",choice);
+                      ^
+../src/hello.c:93:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[i] = ("%02x",choice);
+                     ^
+../src/hello.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12036	    476	   1300	  13812	   35f4	MPS_Lab01.elf
+ 
+19:02:57 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:76:22: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[12] = ("%02x",choice);
+                      ^
+../src/hello.c:92:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[i] = ("%02x",choice);
+                     ^
+../src/hello.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12116	    476	   1300	  13892	   3644	MPS_Lab01.elf
+ 
+19:03:54 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:76:22: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[12] = ("%02x",choice);
+                      ^
+../src/hello.c:92:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[i] = ("%02x",choice);
+                     ^
+../src/hello.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12088	    476	   1300	  13864	   3628	MPS_Lab01.elf
+ 
+19:04:44 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:76:22: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[12] = ("%02x",choice);
+                      ^
+../src/hello.c:92:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[i] = ("%02x",choice);
+                     ^
+../src/hello.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12088	    476	   1300	  13864	   3628	MPS_Lab01.elf
+ 
+19:07:02 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:76:22: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[12] = ("%02x",choice);
+                      ^
+../src/hello.c:93:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[i] = ("%02x",choice);
+                     ^
+../src/hello.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12096	    476	   1300	  13872	   3630	MPS_Lab01.elf
+ 
+19:07:36 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:76:22: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[12] = ("%02x",choice);
+                      ^
+../src/hello.c:92:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[i] = ("%02x",choice);
+                     ^
+../src/hello.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12084	    476	   1300	  13860	   3624	MPS_Lab01.elf
+ 
+08:38:36 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+make: Nothing to be done for 'all'.
+08:39:33 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+make: Nothing to be done for 'all'.
+08:41:05 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+make: Nothing to be done for 'all'.
+16:58:46 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+make: Nothing to be done for 'all'.
+17:04:06 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/hello.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/hello.d" -MT"src/hello.o" -o "src/hello.o" "../src/hello.c"
+../src/hello.c: In function 'main':
+../src/hello.c:85:22: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[12] = ("%02x",choice);
+                      ^
+../src/hello.c:101:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[i] = ("%02x",choice);
+                     ^
+../src/hello.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/hello.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/hello.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/hello.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12168	    476	   1300	  13944	   3678	MPS_Lab01.elf
+ 
+18:39:49 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/Task1&2.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/Task1&2.d" -MT"src/Task1&2.o" -o "src/Task1&2.o" "../src/Task1&2.c"
+../src/Task1&2.c: In function 'main':
+../src/Task1&2.c:85:22: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[12] = ("%02x",choice);
+                      ^
+../src/Task1&2.c:101:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[i] = ("%02x",choice);
+                     ^
+../src/Task1&2.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/Task1&2.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/Task1&2.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/Task1&2.c
+ 
+Building file: ../src/Task3.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/Task3.d" -MT"src/Task3.o" -o "src/Task3.o" "../src/Task3.c"
+../src/Task3.c: In function 'main':
+../src/Task3.c:30:5: warning: implicit declaration of function 'GPIO_Init'; did you mean 'Sys_Init'? [-Wimplicit-function-declaration]
+     GPIO_Init();
+     ^~~~~~~~~
+     Sys_Init
+../src/Task3.c: At top level:
+../src/Task3.c:50:6: warning: conflicting types for 'GPIO_Init'
+ void GPIO_Init(void){
+      ^~~~~~~~~
+../src/Task3.c:30:5: note: previous implicit declaration of 'GPIO_Init' was here
+     GPIO_Init();
+     ^~~~~~~~~
+Finished building: ../src/Task3.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+src/Task3.o: In function `main':
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug/../src/Task3.c:28: multiple definition of `main'
+src/Task1&2.o:C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug/../src/Task1&2.c:29: first defined here
+collect2.exe: error: ld returned 1 exit status
+makefile:36: recipe for target 'MPS_Lab01.elf' failed
+make: *** [MPS_Lab01.elf] Error 1
+18:40:26 **** Clean-only build of configuration Debug for project MPS_Lab01 ****
+make clean 
+rm -rf *
+ 
+18:40:32 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.d" -MT"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o" -o "stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o" "C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c"
+Finished building: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c
+ 
+Building file: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.d" -MT"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.o" -o "stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.o" "C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c"
+Finished building: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c
+ 
+Building file: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.d" -MT"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.o" -o "stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.o" "C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c"
+Finished building: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c
+ 
+Building file: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.d" -MT"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.o" -o "stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.o" "C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c"
+Finished building: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c
+ 
+Building file: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.d" -MT"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.o" -o "stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.o" "C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c"
+Finished building: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c
+ 
+Building file: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.d" -MT"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.o" -o "stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.o" "C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c"
+Finished building: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c
+ 
+Building file: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.d" -MT"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.o" -o "stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.o" "C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c"
+Finished building: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c
+ 
+Building file: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.d" -MT"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.o" -o "stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.o" "C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c"
+Finished building: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c
+ 
+Building file: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Source/Templates/system_stm32f7xx.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Source/Templates/system_stm32f7xx.d" -MT"stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Source/Templates/system_stm32f7xx.o" -o "stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Source/Templates/system_stm32f7xx.o" "C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Source/Templates/system_stm32f7xx.c"
+Finished building: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Source/Templates/system_stm32f7xx.c
+ 
+Building file: ../startup/startup_stm32f769xx.s
+Invoking: MCU GCC Assembler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-as -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -g -o "startup/startup_stm32f769xx.o" "../startup/startup_stm32f769xx.s"
+Finished building: ../startup/startup_stm32f769xx.s
+ 
+Building file: ../src/Task3.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/Task3.d" -MT"src/Task3.o" -o "src/Task3.o" "../src/Task3.c"
+../src/Task3.c: In function 'main':
+../src/Task3.c:30:5: warning: implicit declaration of function 'GPIO_Init'; did you mean 'Sys_Init'? [-Wimplicit-function-declaration]
+     GPIO_Init();
+     ^~~~~~~~~
+     Sys_Init
+../src/Task3.c: At top level:
+../src/Task3.c:50:6: warning: conflicting types for 'GPIO_Init'
+ void GPIO_Init(void){
+      ^~~~~~~~~
+../src/Task3.c:30:5: note: previous implicit declaration of 'GPIO_Init' was here
+     GPIO_Init();
+     ^~~~~~~~~
+Finished building: ../src/Task3.c
+ 
+Building file: ../src/init.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/init.d" -MT"src/init.o" -o "src/init.o" "../src/init.c"
+Finished building: ../src/init.c
+ 
+Building file: ../src/uart.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/uart.d" -MT"src/uart.o" -o "src/uart.o" "../src/uart.c"
+Finished building: ../src/uart.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+   8548	    112	   1296	   9956	   26e4	MPS_Lab01.elf
+ 
+18:41:07 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+make: Nothing to be done for 'all'.
+09:42:41 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/Task3.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/Task3.d" -MT"src/Task3.o" -o "src/Task3.o" "../src/Task3.c"
+../src/Task3.c: In function 'main':
+../src/Task3.c:30:5: warning: implicit declaration of function 'GPIO_Init'; did you mean 'Sys_Init'? [-Wimplicit-function-declaration]
+     GPIO_Init();
+     ^~~~~~~~~
+     Sys_Init
+../src/Task3.c: At top level:
+../src/Task3.c:63:6: warning: conflicting types for 'GPIO_Init'
+ void GPIO_Init(void){
+      ^~~~~~~~~
+../src/Task3.c:30:5: note: previous implicit declaration of 'GPIO_Init' was here
+     GPIO_Init();
+     ^~~~~~~~~
+Finished building: ../src/Task3.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+   8644	    112	   1296	  10052	   2744	MPS_Lab01.elf
+ 
+09:43:57 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/Task3.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/Task3.d" -MT"src/Task3.o" -o "src/Task3.o" "../src/Task3.c"
+../src/Task3.c: In function 'main':
+../src/Task3.c:30:5: warning: implicit declaration of function 'GPIO_Init'; did you mean 'Sys_Init'? [-Wimplicit-function-declaration]
+     GPIO_Init();
+     ^~~~~~~~~
+     Sys_Init
+../src/Task3.c: At top level:
+../src/Task3.c:63:6: warning: conflicting types for 'GPIO_Init'
+ void GPIO_Init(void){
+      ^~~~~~~~~
+../src/Task3.c:30:5: note: previous implicit declaration of 'GPIO_Init' was here
+     GPIO_Init();
+     ^~~~~~~~~
+Finished building: ../src/Task3.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+   8644	    112	   1296	  10052	   2744	MPS_Lab01.elf
+ 
+09:46:17 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/Task3.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/Task3.d" -MT"src/Task3.o" -o "src/Task3.o" "../src/Task3.c"
+../src/Task3.c: In function 'main':
+../src/Task3.c:30:5: warning: implicit declaration of function 'GPIO_Init'; did you mean 'Sys_Init'? [-Wimplicit-function-declaration]
+     GPIO_Init();
+     ^~~~~~~~~
+     Sys_Init
+../src/Task3.c: At top level:
+../src/Task3.c:69:6: warning: conflicting types for 'GPIO_Init'
+ void GPIO_Init(void){
+      ^~~~~~~~~
+../src/Task3.c:30:5: note: previous implicit declaration of 'GPIO_Init' was here
+     GPIO_Init();
+     ^~~~~~~~~
+Finished building: ../src/Task3.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+   8704	    112	   1296	  10112	   2780	MPS_Lab01.elf
+ 
+10:14:56 **** Clean-only build of configuration Debug for project MPS_Lab01 ****
+make clean 
+rm -rf *
+ 
+10:15:03 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.d" -MT"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o" -o "stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.o" "C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c"
+Finished building: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c
+ 
+Building file: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.d" -MT"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.o" -o "stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.o" "C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c"
+Finished building: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c
+ 
+Building file: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.d" -MT"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.o" -o "stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.o" "C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c"
+Finished building: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c
+ 
+Building file: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.d" -MT"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.o" -o "stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.o" "C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c"
+Finished building: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c
+ 
+Building file: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.d" -MT"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.o" -o "stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.o" "C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c"
+Finished building: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c
+ 
+Building file: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.d" -MT"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.o" -o "stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.o" "C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c"
+Finished building: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c
+ 
+Building file: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.d" -MT"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.o" -o "stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.o" "C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c"
+Finished building: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c
+ 
+Building file: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.d" -MT"stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.o" -o "stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.o" "C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c"
+Finished building: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c
+ 
+Building file: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Source/Templates/system_stm32f7xx.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Source/Templates/system_stm32f7xx.d" -MT"stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Source/Templates/system_stm32f7xx.o" -o "stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Source/Templates/system_stm32f7xx.o" "C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Source/Templates/system_stm32f7xx.c"
+Finished building: C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Source/Templates/system_stm32f7xx.c
+ 
+Building file: ../startup/startup_stm32f769xx.s
+Invoking: MCU GCC Assembler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-as -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -g -o "startup/startup_stm32f769xx.o" "../startup/startup_stm32f769xx.s"
+Finished building: ../startup/startup_stm32f769xx.s
+ 
+Building file: ../src/Task1&2.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/Task1&2.d" -MT"src/Task1&2.o" -o "src/Task1&2.o" "../src/Task1&2.c"
+../src/Task1&2.c: In function 'main':
+../src/Task1&2.c:85:22: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[12] = ("%02x",choice);
+                      ^
+../src/Task1&2.c:101:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[i] = ("%02x",choice);
+                     ^
+../src/Task1&2.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/Task1&2.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/Task1&2.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/Task1&2.c
+ 
+Building file: ../src/init.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/init.d" -MT"src/init.o" -o "src/init.o" "../src/init.c"
+Finished building: ../src/init.c
+ 
+Building file: ../src/uart.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/uart.d" -MT"src/uart.o" -o "src/uart.o" "../src/uart.c"
+Finished building: ../src/uart.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12168	    476	   1300	  13944	   3678	MPS_Lab01.elf
+ 
+10:25:32 **** Incremental Build of configuration Debug for project MPS_Lab01 ****
+make all 
+Building file: ../src/Task1&2.c
+Invoking: MCU GCC Compiler
+C:\Users\Noah\Desktop\Homework\Senior_1st_Semester\MPS\MPS_Lab01\Debug
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -DUSE_HAL_DRIVER -DSTM32F769xx -DUSE_STM32F769I_DISCO -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/inc" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/CMSIS/Include" -I"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/stm32lib/Drivers/STM32F7xx_HAL_Driver/Inc" -Og -g3 -Wall -fmessage-length=0 -Wdouble-promotion -ffunction-sections -c -MMD -MP -MF"src/Task1&2.d" -MT"src/Task1&2.o" -o "src/Task1&2.o" "../src/Task1&2.c"
+../src/Task1&2.c: In function 'main':
+../src/Task1&2.c:85:22: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[12] = ("%02x",choice);
+                      ^
+../src/Task1&2.c:102:21: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+     str[i] = ("%02x",choice);
+                     ^
+../src/Task1&2.c:36:9: warning: unused variable 'size' [-Wunused-variable]
+     int size = 3;
+         ^~~~
+../src/Task1&2.c:35:7: warning: unused variable 'canprint' [-Wunused-variable]
+  char canprint = 1;
+       ^~~~~~~~
+../src/Task1&2.c:33:7: warning: unused variable 'in' [-Wunused-variable]
+  char in[3];
+       ^~
+Finished building: ../src/Task1&2.c
+ 
+Building target: MPS_Lab01.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m7 -mthumb -mfloat-abi=hard -mfpu=fpv5-d16 -specs=nosys.specs -specs=nano.specs -T"C:/Users/Noah/Desktop/Homework/Senior_1st_Semester/MPS/MPS_Lab01/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "MPS_Lab01.elf" @"objects.list"   -lm
+Finished building target: MPS_Lab01.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "MPS_Lab01.elf" "MPS_Lab01.bin"
+arm-none-eabi-size "MPS_Lab01.elf"
+   text	   data	    bss	    dec	    hex	filename
+  12192	    476	   1300	  13968	   3690	MPS_Lab01.elf
+ 

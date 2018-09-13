@@ -1,0 +1,155 @@
+//------------------------------------------------------------------------------------
+// Hello.c
+//------------------------------------------------------------------------------------
+//
+// Test program to demonstrate serial port I/O.  This program writes a message on
+// the console using the printf() function, and reads characters using the getchar()
+// function.  An ANSI escape sequence is used to clear the screen if a '2' is typed.
+// A '1' repeats the message and the program responds to other input characters with
+// an appropriate message.
+//
+// Any valid keystroke turns on the green LED on the board; invalid entries turn it off
+//
+
+
+//------------------------------------------------------------------------------------
+// Includes
+//------------------------------------------------------------------------------------
+#include "stm32f769xx.h"
+#include "hello.h"
+
+#include<stdint.h>
+
+
+//------------------------------------------------------------------------------------
+// MAIN Routine
+//------------------------------------------------------------------------------------
+int main(void)
+{
+    Sys_Init(); // This always goes at the top of main (defined in init.c)
+    GPIO_Init();
+
+    HAL_Delay(1000); // Pause for a second
+
+    while(1){
+    	/*
+    	GPIOJ -> ODR |= GPIO_PIN_13; //LD1 On
+    	GPIOJ -> ODR |= GPIO_PIN_5; //LD2 On
+    	GPIOA -> ODR |= GPIO_PIN_12; //LD3 On
+    	GPIOD -> ODR |= GPIO_PIN_4;  //LD4 Off
+    	printf("LD 3 on\r\n");
+    	HAL_Delay(1000);
+    	GPIOJ -> ODR &= ~GPIO_PIN_13; //LD1 Off
+    	GPIOJ -> ODR &= ~GPIO_PIN_5;  //LD2 Off
+    	GPIOA -> ODR &= ~GPIO_PIN_12;  //LD3 Off
+    	GPIOD -> ODR &= ~GPIO_PIN_4;  //LD4 On
+    	printf("LD 3 off\r\n");
+    	HAL_Delay(1000);
+    	*/
+
+    	if( ReadSwitch(GPIOC,GPIO_PIN_7) ) {  //Switch1 on
+    		GPIOJ -> ODR |= GPIO_PIN_13; //LD1 On
+    		printf("LD 1 on\r\n");
+    	}
+    	else{
+    		GPIOJ -> ODR &= ~GPIO_PIN_13; //LD1 Off
+    		printf("LD 1 off\r\n");
+    	}
+
+    	if( ReadSwitch(GPIOC,GPIO_PIN_6) ) {  //Switch2 on
+    		GPIOJ -> ODR |= GPIO_PIN_5; //LD2 On
+    		printf("LD 2 on\r\n");
+    	}
+    	else{
+    		GPIOJ -> ODR &= ~GPIO_PIN_5; //LD2 Off
+    		printf("LD 2 off\r\n");
+    	}
+
+    	if( ReadSwitch(GPIOJ,GPIO_PIN_1) ) {  //Switch3 on
+    		GPIOA -> ODR |= GPIO_PIN_12; //LD3 On
+    		printf("LD 3 on\r\n");
+    	}
+    	else{
+    		GPIOA -> ODR &= ~GPIO_PIN_12; //LD3 Off
+    		printf("LD 3 off\r\n");
+    	}
+
+    	if( ReadSwitch(GPIOF,GPIO_PIN_6) ) {  //Switch4 on
+    		GPIOD -> ODR &= ~GPIO_PIN_4; //LD4 On
+    		printf("LD 4 on\r\n");
+    	}
+    	else{
+    		GPIOD -> ODR |= GPIO_PIN_4; //LD4 Off
+    		printf("LD 4 off\r\n");
+    	}
+
+
+    }
+
+}
+//HAL_GPIO_ReadPin(GPIOC, GPIO_PIN_7);
+
+char ReadSwitch( char GPIOin , char GPIOin_PIN){
+	if(HAL_GPIO_ReadPin(GPIOin, GPIOin_PIN)){
+		return 1;//GPIOout -> ODR |= GPIOout_PIN; //LED on
+	}
+	else{
+		return 0; //GPIOout -> ODR &= ~GPIOout_PIN; //LD1 Off
+	}
+}
+
+
+
+//------------------------------------------------------------------------------------
+//Extra thing to consider...
+//------------------------------------------------------------------------------------
+void GPIO_Init(void){
+    GPIO_InitTypeDef GPIO_InitStruct;
+
+    __GPIOA_CLK_ENABLE();
+    __GPIOC_CLK_ENABLE();
+    __GPIOD_CLK_ENABLE();
+    __GPIOJ_CLK_ENABLE();
+    __GPIOF_CLK_ENABLE();
+
+
+    /*Configure GPIO pin as output : PA12_Pin */
+    GPIO_InitStruct.Pin = GPIO_PIN_12;
+    GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+    HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+     /*Configure GPIO pin as input : PC7_Pin */
+     GPIO_InitStruct.Pin = GPIO_PIN_7|GPIO_PIN_6;
+     GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+     GPIO_InitStruct.Pull = GPIO_PULLUP;
+     HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+
+     /*Configure GPIO pin as output : PD4_Pin */
+     GPIO_InitStruct.Pin = GPIO_PIN_4;
+     GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+     GPIO_InitStruct.Pull = GPIO_NOPULL;
+     HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
+
+     /*Configure GPIO pin as input : PJ1_Pin */
+     GPIO_InitStruct.Pin = GPIO_PIN_1;
+     GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+     GPIO_InitStruct.Pull = GPIO_PULLUP;
+     HAL_GPIO_Init(GPIOJ, &GPIO_InitStruct);
+
+     /*Configure GPIO pin as output : PJ13_Pin/ PJ5_Pin */
+     GPIO_InitStruct.Pin = GPIO_PIN_13|GPIO_PIN_5;
+     GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+     GPIO_InitStruct.Pull = GPIO_NOPULL;
+     HAL_GPIO_Init(GPIOJ, &GPIO_InitStruct);
+
+     /*Configure GPIO pin as input : PF6_Pin */
+     GPIO_InitStruct.Pin = GPIO_PIN_6;
+     GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+     GPIO_InitStruct.Pull = GPIO_PULLUP;
+     HAL_GPIO_Init(GPIOF, &GPIO_InitStruct);
+
+
+
+
+}
